@@ -1,11 +1,12 @@
 body {
 	font-size: 15px;
+	margin: 0;
 }
 .container{
 	width: 25em;
-	height: 75em;
 	border: solid 1px #000;
 	font-family: Arial, Helvetica, sans-serif;
+	padding: 1em;
 }
 
 .commitsContainer {
@@ -19,7 +20,7 @@ body {
 .commitsContainer .notes {
     margin: .3em 0 0 0;
 	font-style: italic;
-    font-size: 11px;
+    font-size: .9em;
 }
 .commitsContainer .comment {
     margin: .3em 0 0 0;
