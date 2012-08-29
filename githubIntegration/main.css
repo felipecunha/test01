@@ -1,6 +1,38 @@
+body {
+	font-size: 15px;
+}
 .container{
-	width: 200px;
-	height: 600px;
+	width: 25em;
+	height: 75em;
 	border: solid 1px #000;
-	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.commitsContainer {
+	font-size: .8em;
+}
+
+.commitsContainer .dateHeader {
+    font-size: 1em;
+    margin: .3em 0 0 0;
+}
+.commitsContainer .notes {
+    margin: .3em 0 0 0;
+	font-style: italic;
+    font-size: 11px;
+}
+.commitsContainer .comment {
+    margin: .3em 0 0 0;
+}
+.commitsContainer .revisionItem {
+	margin-bottom: 10px;
+}
+.commitsContainer h3 {
+    margin: .3em 0 0 0;
+	font-size: 1em;
+	font-weight: normal;
+}
+.commitsContainer .rowDivider{
+	height: .1em;
+	border-top: dashed .1em #CCC;
 }
